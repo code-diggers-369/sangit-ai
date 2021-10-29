@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client \"",
-    "client": "cd client && npm run start",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "client-build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install-client && npm run client-build"
   },
   "keywords": [],
   "author": "",
