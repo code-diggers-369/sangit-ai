@@ -3,6 +3,7 @@ const Youtube = require("youtube-sr").default;
 const ytdl = require("ytdl-core");
 const cors = require("cors");
 const ytMusic = require("node-youtube-music").default;
+const path = require("path");
 
 //
 const app = express();
@@ -116,10 +117,10 @@ app.post("/sangitapp/youtube-music", async (req, res, next) => {
 
 // static folder
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+// if (process.env.NODE_ENV === "production") {
+app.use(express.static("client/build"));
 
-  app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-  });
-}
+app.get("/", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+});
+// }
