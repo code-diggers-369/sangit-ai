@@ -103,7 +103,7 @@ export default function App() {
         />
       ) : (
         <div>
-          <div className="mb-5">
+          <div className="mb-5 custom-model">
             <h3>Give Command Like</h3>
             <h6> Play Bollywood Songs</h6>
             <h6>Play Song Number 1</h6>

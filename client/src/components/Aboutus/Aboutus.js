@@ -19,7 +19,7 @@ export default function Aboutus() {
 
       <h6>This Project Is Develop By Code Diggers</h6>
 
-      <div className="d-flex justify-content-around align-items-center my-5">
+      <div className="social-icons-container d-flex justify-content-around align-items-center my-5">
         <a target="_blank" href="https://www.instagram.com/code.diggers/">
           <img src={Instagram} className="vector-icon" />
         </a>

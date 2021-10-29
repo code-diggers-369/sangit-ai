@@ -26,3 +26,10 @@
   height: 50px;
   width: 50px;
 }
+
+/* social media  */
+@media screen and (max-width: 350px) {
+  .social-icons-container {
+    flex-direction: column;
+  }
+}
