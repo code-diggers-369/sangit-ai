@@ -1,0 +1,28 @@
+/* about us */
+
+.aboutus {
+  margin-top: 150px;
+  background-color: #5f545480;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 70%;
+    height: auto;
+  }
+}
+
+/*  */
+.vector-icon {
+  height: 50px;
+  width: 50px;
+}
