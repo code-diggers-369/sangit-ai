@@ -8,7 +8,7 @@ import SongList from "./components/SongList/SongList";
 import Aboutus from "./components/Aboutus/Aboutus";
 
 // import utils
-import { url } from "./utils/url";
+import { fetchSongUrl } from "./utils/url";
 
 // import external css
 import "./App.css";
@@ -55,7 +55,7 @@ export default function App() {
   const fetchDataFromServer = async (songName) => {
     try {
       alanBtn().playText("Wait Let's Play");
-      const response = await Axios(`${url}youtube-music`, {
+      const response = await Axios(fetchSongUrl, {
         method: "POST",
         data: {
           title: songName,
