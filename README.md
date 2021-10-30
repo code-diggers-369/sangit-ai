@@ -9,9 +9,17 @@ Listen Online Music App. This Project Is Use React Js & Node Js
 3. Then Run Client Side Code **cd client && yarn start || cd client && npm start**.
 4. Boom Site Is Running. Click On Mic & Speak Play Bollywood Song Or Other song, Then Speak Song Number 2 Just Play Music And Enjoy
 
+# Command For Play Song
+
+1. Play Bollywood Songs | Play Alan Walker Song | Play Gujarati Garba | Play Arijit Sign Song | Play Despacito
+2. (Then It Aks For Select Song) Song Number 1 | Song Number 2 | Song Number 5 | Song Number 8
+3. (For Stop) stop
+
+Follow Above Command For Best Result
+
 # Or Use Dev Script
 
-1. Make Sure You Had Install Client And Server Folder All Module Use Command (cd client && npm i) & (npm i)
+1. Make Sure You Had Install Client And Server Folder All Module Use Command (cd client && npm install) & (npm install)
 2. Then In Root Directory Run Script (npm run dev)
 
 # Live Demo
