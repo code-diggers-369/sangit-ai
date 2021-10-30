@@ -24,11 +24,11 @@ Visit: https://sangit-ai.herokuapp.com/
 
 ## Playing In Pc
 
-![GitHub Logo](/screenshots/1.jpeg)
-![GitHub Logo](/screenshots/2.jpeg)
-![GitHub Logo](/screenshots/3.jpeg)
+![GitHub Logo](/screenshots/img1.jpeg)
+![GitHub Logo](/screenshots/img2.jpeg)
+![GitHub Logo](/screenshots/img3.jpeg)
 
 ## Playing In Mobile
 
-![GitHub Logo](/screenshots/4.jpeg)
-![GitHub Logo](/screenshots/5.jpeg)
+![GitHub Logo](/screenshots/img4.jpeg)
+![GitHub Logo](/screenshots/img5.jpeg)
