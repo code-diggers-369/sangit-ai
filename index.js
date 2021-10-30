@@ -55,6 +55,42 @@ app.listen(port, () => console.log(`running on ${port}`));
 //   }
 // });
 
+// deploy solution code
+app.post("/fetchinfo", async (req, res, next) => {
+  try {
+    const { title } = req.body;
+
+    const musics = await Youtube.search(`${title} song`, {
+      type: "video",
+      limit: 10,
+    });
+
+    const filterData = musics.map(async (ls, i) => {
+      const info = await ytdl.getInfo(
+        `https://www.youtube.com/watch?v=${ls.id}`
+      );
+      const format = ytdl.chooseFormat(info.formats, { filter: "audioonly" });
+
+      const thumbnailUrl = info.videoDetails.thumbnails;
+      return {
+        id: ls.youtubeId,
+        title: ls.title,
+        thumbnailUrl: thumbnailUrl[thumbnailUrl.length - 1].url,
+        duration: ls.duration,
+        musicUrl: format.url,
+      };
+    });
+
+    var finalData = await Promise.all(filterData);
+
+    finalData = finalData.slice(0, 10);
+
+    res.json({ data: finalData });
+  } catch (err) {
+    console.log(err);
+  }
+});
+
 app.post("/youtube-music", async (req, res, next) => {
   try {
     const { title } = req.body;
@@ -124,5 +160,3 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
 }
-
-// temp changes

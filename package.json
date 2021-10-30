@@ -19,10 +19,9 @@
     "concurrently": "^6.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "ffmpeg-static": "^4.3.0",
     "node-youtube-music": "^0.3.5",
     "nodemon": "^2.0.7",
     "youtube-sr": "^4.0.6",
-    "ytdl-core": "^4.7.0"
+    "ytdl-core": "^4.9.1"
   }
 }
