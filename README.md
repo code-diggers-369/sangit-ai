@@ -9,7 +9,7 @@ Listen Online Music App. This Project Is Use React Js & Node Js
 3. Then Run Client Side Code **cd client && yarn start || cd client && npm start**.
 4. Boom Site Is Running. Click On Mic & Speak Play Bollywood Song Or Other song, Then Speak Song Number 2 Just Play Music And Enjoy
 
-## If You Want To Use Your Own Alan Ai Key In This Project Than Just Replace Key In client/src/App.js And Upload Script Zip File Sangit_Ai_20211031_052541UTC.zip In  https://studio.alan.app/ & If You Face Any Problem Comment It.
+ If You Want To Use Your Own Alan Ai Key In This Project Than Just Replace Key In client/src/App.js And Upload Script Zip File Sangit_Ai_20211031_052541UTC.zip In  https://studio.alan.app/ & If You Face Any Problem Comment It.
 
 # Command For Play Song
 
