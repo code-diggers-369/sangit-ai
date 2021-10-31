@@ -1,6 +1,8 @@
-// const url = "http://localhost:1212/";
-// const fetchSongUrl = "/youtube-music";
-const fetchSongUrl = "/fetchinfo";
-// const fetchSongUrl = "https://bitter-scarlet-kitten.glitch.me/fetchinfo/";
+const fetchSongUrl = "http://localhost:1212/";
+
+
+// use below url if you host server and client code on same site
+// const fetchSongUrl = "/fetchinfo";
+
 
 export { fetchSongUrl };
