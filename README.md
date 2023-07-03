@@ -26,7 +26,7 @@ Follow Above Command For Best Result
 
 # Live Demo
 
-Visit: https://sangit-ai.herokuapp.com/
+Visit: https://sangit-ai.netlify.app/
 
 ## Homepage
 
